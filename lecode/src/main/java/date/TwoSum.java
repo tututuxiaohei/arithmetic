@@ -42,6 +42,7 @@ public class TwoSum {
     }
 
     public static void main(String[] args) {
-        int[] ints = twoSum(new int[]{3, 2, 4}, 6);
+        int[] ints = twoSumMap(new int[]{3, 3,3}, 6);
+        System.out.println(ints[0]+""+ints[1]);
     }
 }
